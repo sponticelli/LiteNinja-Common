@@ -1,0 +1,22 @@
+{
+    "name": "com.liteninja.common",
+    "version": "1.0.0",
+    "displayName": "LiteNinja Common",
+    "description": "A Scriptable Object Architecture",
+    "unity": "2021.1",
+    "documentationUrl": "https://github.com/sponticelli/LiteNinja-Common/blob/main/README.md",
+    "changelogUrl": "https://github.com/sponticelli/LiteNinja-Common/blob/main/changelog.md",
+    "licensesUrl": "https://github.com/sponticelli/LiteNinja-Common/blob/main/LICENSE",
+    "dependencies": {
+    },
+    "keywords": [
+      "utility",
+      "Common code",
+      "utils"
+    ],
+    "author": {
+      "name": "Sandro Ponticelli",
+      "email": "sandro.ponticelli@gmail.com",
+      "url": "https://github.com/sponticelli"
+    }
+  }

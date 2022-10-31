@@ -1,0 +1,18 @@
+{
+    "name": "LiteNinja.Common.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e912684ba94bb47fc82469b51e895307"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
