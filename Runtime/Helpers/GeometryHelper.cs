@@ -5,6 +5,26 @@ namespace LiteNinja.Common
 {
   public static class GeometryHelper
   {
+    
+    /// <summary>
+    /// Computes and returns the angle between two vectors, on a 360° scale
+    /// </summary>
+    /// <returns>The angle in degrees.</returns>
+    /// <param name="vectorA">Vector a.</param>
+    /// <param name="vectorB">Vector b.</param>
+    public static float AngleBetween(Vector2 vectorA, Vector2 vectorB)
+    {
+      var angle = Vector2.Angle(vectorA, vectorB);
+      var cross = Vector3.Cross(vectorA, vectorB);
+      if (cross.z > 0)
+      {
+        angle = 360f - angle;
+      }
+      return angle;
+    }
+    
+    
+    
     /// <summary>
     /// Determines whether a point is in the half plane described by a point and direction.
     /// </summary>
