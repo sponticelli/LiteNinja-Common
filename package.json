@@ -1,6 +1,6 @@
 {
     "name": "com.liteninja.common",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "LiteNinja Common",
     "description": "A Scriptable Object Architecture",
     "unity": "2021.1",
